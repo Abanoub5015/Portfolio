@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../Card/Card'
+import Card from '../6_Services-Card/Card'
 import './Services.css'
 
 import HeartEmoji from '../../img/heartemoji.gif'

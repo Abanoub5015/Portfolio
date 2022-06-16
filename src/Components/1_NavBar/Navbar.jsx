@@ -1,5 +1,5 @@
 import React from 'react'
-import Toggle from '../Toggle/Toggle'
+import Toggle from '../2_NavBar-Toggle/Toggle'
 import './Navbar.css'
 
 function Navbar() {
