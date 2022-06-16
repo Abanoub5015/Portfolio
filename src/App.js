@@ -1,10 +1,10 @@
-import Navbar from "./Components/NavBar/Navbar";
+import Navbar from "./Components/1_NavBar/Navbar";
 import './App.css'
-import Intro from "./Components/Intro/Intro";
+import Intro from "./Components/2_Intro/Intro";
 
 import { ThemeContext } from './Context';
 import { useContext } from 'react';
-import Services from "./Components/Services/Services";
+import Services from "./Components/3_Services/Services";
 
 function App() {
   const theme = useContext(ThemeContext);
