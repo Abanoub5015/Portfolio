@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.e20389a7.css",
-    "main.js": "/static/js/main.b4056b63.js",
+    "main.css": "/static/css/main.f6d36c1e.css",
+    "main.js": "/static/js/main.885013b3.js",
+    "static/media/sidebar.gif": "/static/media/sidebar.dfbe60071d430a300273.gif",
     "static/media/ecommerce.png": "/static/media/ecommerce.522da76635d52117102b.png",
     "static/media/heartemoji.gif": "/static/media/heartemoji.106418309abddb1e1df0.gif",
-    "static/media/sidebar.png": "/static/media/sidebar.b2225070b8adae68d063.png",
     "static/media/glasses.gif": "/static/media/glasses.a1e18ca78d7dc88f0c46.gif",
     "static/media/musicapp.png": "/static/media/musicapp.f1c301f91904ef5f9249.png",
     "static/media/boy.png": "/static/media/boy.29f676e9c86d12cb0459.png",
@@ -13,13 +13,15 @@
     "static/media/hoc.png": "/static/media/hoc.e6af51fc04c57ae67096.png",
     "static/media/Gumela Regular.otf": "/static/media/Gumela Regular.0ae83c6988a536716eb4.otf",
     "static/media/crown.png": "/static/media/crown.efa1d3a749c0cb25394c.png",
+    "static/media/wave.png": "/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/A_logo.png": "/static/media/A_logo.c592844f0a1e36da6f52.png",
     "static/media/Vector2.png": "/static/media/Vector2.009dc8f0bf95e55a8bb3.png",
     "index.html": "/index.html",
-    "main.e20389a7.css.map": "/static/css/main.e20389a7.css.map",
-    "main.b4056b63.js.map": "/static/js/main.b4056b63.js.map"
+    "main.f6d36c1e.css.map": "/static/css/main.f6d36c1e.css.map",
+    "main.885013b3.js.map": "/static/js/main.885013b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e20389a7.css",
-    "static/js/main.b4056b63.js"
+    "static/css/main.f6d36c1e.css",
+    "static/js/main.885013b3.js"
   ]
 }
