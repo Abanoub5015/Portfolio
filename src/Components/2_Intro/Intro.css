@@ -111,7 +111,7 @@
 .i-icons .icon:hover .tooltip{
     top: -70px;
     opacity: 1;
-    pointer-events: auto;
+ /*    pointer-events: auto; */
 }
 
 .i-icons .github:hover img,
