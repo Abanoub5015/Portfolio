@@ -1,0 +1,196 @@
+.intro {
+    display: flex;
+    height: 70vh;
+    margin-top: 3rem;
+}
+
+.i-left {
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.i-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.i-name>:nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(2) {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.i-name>:nth-child(3) {
+    color: var(--gray);
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.i-button {
+    width: 6rem;
+    height: 2rem;
+}
+
+.i-icons {
+    margin-top: 3rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.i-icons>* {
+    transform: scale(0.5);
+}
+
+.i-icons>*:hover {
+    cursor: pointer;
+}
+
+
+.circle_tooltip{
+    border-radius: 50%;
+    color: #000;
+    background: #fff;
+    height: 100px;
+    width: 100px;
+    box-shadow: 3px 3px 30px #e78267;
+ 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.github .circle_tooltip:hover{
+    background-color: #171515;
+    color: white;
+}
+.linkedin .circle_tooltip:hover{
+    background-color: #0e76a8;
+    color: white;
+}
+.whatsapp .circle_tooltip:hover{
+    background-color: #25d366;
+    color: white;
+}
+
+
+
+.i-icons .icon .tooltip{
+    background: #fff;
+    color: #fff;
+    font-size: 30px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    padding: 10px 18px;
+    border-radius: 25px;
+    top: 0px;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+.i-icons .icon .tooltip::before{ /* dimond shape */
+    position: absolute; 
+    content: '';
+    height: 15px;
+    width: 15px;
+    background: white;
+    bottom: -8px;
+    left: 40%;
+    transform: rotate(45deg);
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.i-icons .icon:hover .tooltip{
+    top: -70px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.i-icons .github:hover img,
+.i-icons .github:hover .tooltip,
+.i-icons .github:hover .tooltip::before{
+background: #171515;
+box-shadow: 1px 1px 7px #e78267;
+}
+
+.i-icons .linkedin:hover img,
+.i-icons .linkedin:hover .tooltip,
+.i-icons .linkedin:hover .tooltip::before{
+background: #0e76a8;
+box-shadow: 1px 1px 3px #e78267;
+}
+
+.i-icons .whatsapp:hover img,
+.i-icons .whatsapp:hover .tooltip,
+.i-icons .whatsapp:hover .tooltip::before{
+background: #25d366;
+}
+
+
+
+
+
+
+.i-right {
+    flex: 1;
+    position: relative;
+}
+
+.i-right>* {
+    position: absolute;
+    z-index: 1;
+}
+
+.i-right>:nth-child(1) {
+    transform: scale(0.69);
+    left: -15%;
+    top: -9%;
+}
+
+.i-right>:nth-child(2) {
+    transform: scale(0.65);
+    left: -3rem;
+    top: -4.6rem;
+}
+
+.i-right>:nth-child(3) {
+    transform: scale(0.62);
+    left: -3.3rem;
+    top: -5.4rem;
+}
+
+.i-right>:nth-child(4) {
+    transform: scale(0.6);
+    top: -19%;
+    left: -24%;
+}
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(72px);
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+}
+
+@media screen and (max-width: 1000px) {
+    .intro{
+      flex-direction: column;
+      height: 50rem;
+    }
+    .i-right{
+        transform: scale(0.79);
+    }
+  }

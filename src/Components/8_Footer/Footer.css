@@ -1,0 +1,116 @@
+.footer{
+    display: flex;
+    align-items: center;
+    margin: -10rem -3.5rem;
+}
+
+.f-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: black;
+    gap: 5px;
+}
+
+.f-icons{
+    display: flex;
+    gap: 1rem;
+    transform: scale(0.8);
+}
+
+
+
+.circle_tooltip{
+    border-radius: 50%;
+    color: #000;
+    background: #fff;
+    height: 100px;
+    width: 100px;
+    box-shadow: 3px 3px 30px #e78267;
+ 
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.github .circle_tooltip:hover{
+    background-color: #171515;
+    color: white;
+}
+.linkedin .circle_tooltip:hover{
+    background-color: #0e76a8;
+    color: white;
+}
+.whatsapp .circle_tooltip:hover{
+    background-color: #25d366;
+    color: white;
+}
+
+.f-icons .icon .tooltip{
+    background: #fff;
+    color: #fff;
+    font-size: 15px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    padding: 10px 18px;
+    border-radius: 25px;
+    top: 0px;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+.f-icons .icon .tooltip::before{ /* dimond shape */
+    position: absolute; 
+    content: '';
+    height: 15px;
+    width: 15px;
+    background: white;
+    bottom: -8px;
+    left: 40%;
+    transform: rotate(45deg);
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.f-icons .icon:hover .tooltip{
+    top: -70px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.f-icons .github:hover img,
+.f-icons .github:hover .tooltip,
+.f-icons .github:hover .tooltip::before{
+    background: #171515;
+    box-shadow: 1px 1px 7px #e78267;
+}
+
+.f-icons .linkedin:hover img,
+.f-icons .linkedin:hover .tooltip,
+.f-icons .linkedin:hover .tooltip::before{
+    background: #0e76a8;
+}
+
+.f-icons .whatsapp:hover img,
+.f-icons .whatsapp:hover .tooltip,
+.f-icons .whatsapp:hover .tooltip::before{
+    background: #25d366;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .footer{
+        margin: -1rem -3.5rem;
+    }
+    .f-content{
+        transform: scale(0.8);
+        margin-top: 19px;
+        margin-left: 40px;
+    }
+}
+
+
+
