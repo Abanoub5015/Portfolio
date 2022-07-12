@@ -58,7 +58,7 @@ function Navbar() {
                    </Link>
 
                    <Link spy={true} to={'Portfolio'} smooth={true} className="link-hoverColor">
-                   <li>Portfolio</li>
+                   <li>Portfolio🔥</li>
                    </Link>
 
                    
