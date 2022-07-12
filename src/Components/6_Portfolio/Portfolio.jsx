@@ -54,23 +54,42 @@ function Portfolio() {
       >
         
         <SwiperSlide>
-          <img src={Sildebar} alt="" />
+        <div class="container">
+           <img src={Sildebar} alt="" />
+           <div class="stack-top">P</div>
+        </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+        <div class="container">
+           <img src={Ecommerce} alt="" />
+           <div class="stack-top">P</div>
+        </div>
         </SwiperSlide>
 
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <div class="container">
+            <img src={HOC} alt="" />
+            <div class="stack-top">P</div>
+          </div>
         </SwiperSlide>
 
+        <SwiperSlide>
+        <div class="container">
+          <img src={MusicApp} alt="" />
+          <div class="stack-top">P</div>
+        </div>
+        </SwiperSlide>
+        
         <SwiperSlide>
           <img src={MusicApp} alt="" />
+          <div class="stack-top">F</div>
         </SwiperSlide>
 
       </Swiper>
+
     </div>
+
   );
 }
 
