@@ -56,34 +56,34 @@ function Portfolio() {
         <SwiperSlide>
         <div class="container">
            <img src={Sildebar} alt="" />
-           <div class="stack-top">P</div>
+            <div class="stack-top" style={{'font-size': '18px'}}>Project</div>
         </div>
         </SwiperSlide>
 
         <SwiperSlide>
         <div class="container">
            <img src={Ecommerce} alt="" />
-           <div class="stack-top">P</div>
+           <div class="stack-top" style={{'font-size': '18px'}}>Project</div>
         </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div class="container">
             <img src={HOC} alt="" />
-            <div class="stack-top">P</div>
+             <div class="stack-top" style={{'font-size': '18px'}}>Project</div>
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
         <div class="container">
           <img src={MusicApp} alt="" />
-          <div class="stack-top">P</div>
+           <div class="stack-top" style={{'font-size': '18px'}}>Project</div>
         </div>
         </SwiperSlide>
         
         <SwiperSlide>
           <img src={MusicApp} alt="" />
-          <div class="stack-top">F</div>
+          <div class="stack-top" style={{'font-size': '15px'}}>Freelance</div>
         </SwiperSlide>
 
       </Swiper>
