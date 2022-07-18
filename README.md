@@ -1,4 +1,4 @@
 # Portfolio
 My Bio (React JS)
 
-![image](https://ibb.co/hW6v39B)
+![screenShot_Portfolio](https://i.ibb.co/mqj7fT9/image.png)
