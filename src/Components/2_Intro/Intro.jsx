@@ -38,9 +38,16 @@ function Intro() {
                 <div className="i-name">
                     <span style={{color: darkMode? 'white' : ''}}>Hey! I'm</span>
                     <span>Abanoub Magdy</span>
-                    <span>Front-End Developer with high
-                        level of experience in web designing
-                        and development,Production of high-quality work</span>
+                    <span>Front-End Developer with a high
+                        level of experience in web development, production of high-quality work, with
+                        <br/>
+                         (2 years experience) in Flutter Development
+                        <br/>                      
+                         (1-year experience) in Front-End Development [React JS] 
+                        <br/>    
+                         (1-year experience) in Android Development 
+                      
+                        </span>
                 </div>
 
               {/*   <button className="button i-button">
@@ -51,7 +58,7 @@ function Intro() {
             
                <div className="i-icons">
                  <div className="icon github">
-                    <a href="https://github.com/Abanoub5015?tab=repositories" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/Abanoub5015" target="_blank" rel="noreferrer">
                         <div className="tooltip">Github</div>
                         <div className="circle_tooltip"><span className="<i fa-brands fa-github fa-3x"></span> </div>
                        {/*  <ReactRoundedImage

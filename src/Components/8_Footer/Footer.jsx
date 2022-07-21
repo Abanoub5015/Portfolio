@@ -19,7 +19,7 @@ function Footer() {
     
         <div className="f-icons">
                  <div className="icon github">
-                    <a href="https://github.com/Abanoub5015?tab=repositories" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/Abanoub5015" target="_blank" rel="noreferrer">
                         <div className="tooltip">Github</div>
                         <div className="circle_tooltip"><span className="<i fa-brands fa-github fa-3x"></span> </div>
                        {/*  <ReactRoundedImage
