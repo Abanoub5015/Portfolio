@@ -77,7 +77,7 @@ npm init
  npm install -g npm       
  npx create-react-app vibes            
  npm install @mui/material @emotion/react @emotion/styled   
- > npm install @mui/icons-material       
+ npm install @mui/icons-material       
  npm i firebase     
  npm i -g firebase-tools   
  firebase deploy   
@@ -86,7 +86,7 @@ npm init
  firebase init
  in> npm run build  
  npm start
-  npm install react-scripts --save 
+ npm install react-scripts --save 
  npm install --save @iconscout/react-unicons       
 
   git commit -m "first commit"     
@@ -99,10 +99,10 @@ npm init
   git commit -m "deploy website" 
 
   git init                                                        >> git add .
->> git commit -m "first commit"
->> git branch -M main
->> git remote add origin https://github.com/Abanoub5015/Portfolio.git
->> git push -u origin main
+  git commit -m "first commit"
+  git branch -M main
+  git remote add origin https://github.com/Abanoub5015/Portfolio.git
+  git push -u origin main
 
 git commit -m "deploy web"
 npm install gh-pages --save-dev 
@@ -123,11 +123,7 @@ npm add @emailjs/browser
  npm run storybook  
 
 git push -u origin https://github.com/Abanoub5015/Portfolio.git 
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[angular/flex-layout]: https://github.com/angular/flex-layout
+
 
 
 
@@ -188,3 +184,25 @@ git push -f origin main
        git add * 
        git push origin main -f  
        git pull origin main 
+
+# insert a yellow rect beneath the text, to represent the bounding box
+svg.insert('rect','text')
+  .attr('x', bbox.x)
+  .attr('y', bbox.y)
+  .attr('width', bbox.width)
+  .attr('height', bbox.height)
+  
+<Rect width="40" height="40" fill="blue" />
+<Text
+  textAnchor="middle"
+  fontWeight="bold"
+  fontSize="16"
+  fill="blue">
+  0
+ </Text>
+
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[angular/flex-layout]: https://github.com/angular/flex-layout
