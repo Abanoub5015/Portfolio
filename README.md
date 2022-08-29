@@ -84,6 +84,7 @@ npm start
 ```
 npm install -g
 ```  
+
 ```
 [index.html inside [<head> tag]
     <style>
@@ -102,26 +103,33 @@ npm install -g
     </style>
 ]
 ```
+
 ```
 1. npm add react-scroll  
 ```
+
 ```
 2. npm add @iconscout/react-unicons
 2. npm install --save @iconscout/react-unicons
 ```
+
 ```
 5. npm install framer-motion 
 ```
+
 ```
 6. npm install --save react-particle-image  
 ```
+
 ```
 7. npm add swiper
 ```
+
 ```
 8. npm add emailjs
 8. npm add @emailjs/browser
 ```
+
 ```
 10.npm install --save font-awesome
  [index.html inside [<head> tag]
@@ -131,7 +139,7 @@ npm install -g
      <!--load all Font Awesome styles -->
  ]
 ```
-```
+
 
 
 
@@ -166,113 +174,6 @@ npm run deploy
 ```
 
 
-
-
-```
- 
- npm install -g npm       
- npx create-react-app vibes            
- npm install @mui/material @emotion/react @emotion/styled   
- npm install @mui/icons-material       
- npm i firebase     
- npm i -g firebase-tools   
- firebase deploy   
- firebase login  
- firebase logout
- firebase init
- ********************
- npm start
- npm install react-scripts --save 
-     
-
-  git commit -m "first commit"     
-  git branch -M main  
-  git remote add origin https://github.com/Abanoub5015/Portfolio.hit 
-  git pull origin main 
-
-  npm install gh-pages — save-dev  
-  npm run deploy
-  git commit -m "deploy website" 
-
-  git init                                                        >> git add .
-  git commit -m "first commit"
-  git branch -M main
-  git remote add origin https://github.com/Abanoub5015/Portfolio.git
-  git push -u origin main
-
-git commit -m "deploy web"
-npm install gh-pages --save-dev 
-npm run deploy
-
-
-
- npm i --save @fortawesome/react-fontawesome@latest    
- npm install --save font-awesome
-
- npm run storybook  
-
-git push -u origin https://github.com/Abanoub5015/Portfolio.git 
-
-
-
-git push origin master --force
-git remote rm origin   
-git remote add origin https://github.com/Abanoub5015/Portfolio  
-git push -f origin main   
-
- git remote 
- git branch 
- git push origin main     
-  npm run deploy
-
-
-
-
-   npm install --save-dev typescript     
-   npm install --save-dev @angular/language-service    
-   npm eslint  
-   npm install -g @angular/cli 
-   ng --version 
-   ng g c Home  
-    ng g c components/ProductListItem 
-    ng g c components/PageNotFound   
-   ng help 
-   ng serve --port 3000 
-   ng g m Bookshelf  
-   ng g s services/post 
-   ng g s services/post --project my-app 
-   ng g s services/post --skip-tests    
-
-   npm cache clear -- force 
-   npm config set legacy-peer-deps true  
-
-    npm i -s @angular/flex-layout @angular/cdk    
-
-    npm i @ng-bootstrap/ng-bootstrap 
-    npm i --save bootstrap 
-    ng add @ng-bootstrap/ng-bootstrap 
-    ng serve --open           
-
-     git init 
-     git add README.md  
-     git commit -m"publish project"  
-     git branch -m main 
-     git remote add origin https://github.com/Abanoub5015/MyStore.git
-     git commit -m "ReadMe update1"         
-
- npm i -g angular-cli-ghpages
-     ng build 
-       ngh --dir dist/my-store         
-
-       
-       ng cache clean
-
-
-
-       git add * 
-       git push origin main -f  
-       git pull origin main 
-```
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
