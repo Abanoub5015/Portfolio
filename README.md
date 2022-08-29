@@ -102,6 +102,12 @@ npm install -g
       }
     </style>
 ]
+[index.css
+  @font-face {
+    font-family: Gumela;
+    src: url('../src/fonts/Gumela\ Regular.otf');
+   }
+]
 ```
 
 ```
