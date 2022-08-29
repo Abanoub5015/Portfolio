@@ -68,17 +68,24 @@
 
 Download this template from [Github](https://github.com/Abanoub5015/Portfolio/archive/refs/heads/main.zip)
 
-npm install --save react-particle-image   
-
 * Install dependencies
+```
 npm install
+```
 * Run locally
+```
 npm start
+```
 
+
+
+* other Commands
+```
 npm install -g   
 npm init
 
-* Run locally
+
+npm install --save react-particle-image   
  npm install -g npm       
  npx create-react-app vibes            
  npm install @mui/material @emotion/react @emotion/styled   
@@ -189,7 +196,7 @@ git push -f origin main
        git add * 
        git push origin main -f  
        git pull origin main 
-
+```
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
