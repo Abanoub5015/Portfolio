@@ -8,7 +8,7 @@
 | [![]()]() |  
 |:---:|
 | *Home*  |
-| ![screenShot_Portfolio](https://i.ibb.co/mqj7fT9/image.png)
+| [![screenShot_Portfolio](https://i.ibb.co/mqj7fT9/image.png)](http://abanoub.tk/)
 
 # 👉🏻[Here's the website [abanoub.tk]](http://abanoub.tk/)
 
@@ -51,3 +51,10 @@ ng serve
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [angular/flex-layout]: https://github.com/angular/flex-layout
+
+## Acknowledgements
+
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
