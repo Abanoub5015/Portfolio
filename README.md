@@ -28,40 +28,42 @@
 <!-- ROADMAP -->
 ## [Roadmap]
 
-### *Portfolio*
+#### *Portfolio*
 - [ ]  1.add a timeline about my career path
 - [x]  2.Recent Porjects(progaming projects)
   - [ ] update projects Demo(video - pic - gif) & zoom-in effect when hover on card
   - [ ] Add btns(web, playStore, AppStore, even video(demo if necessary)) when hover of the card of any project/freelance-work
 - [ ]  3.Add My IT-skills  
-- [ ]  Add some-skills [Creative Mindset, Problem-Solving]
+- [ ]  4.Add some-skills [Creative Mindset, Problem-Solving]
 ----
- ### *Contact*
-  -plan A
-- [ ]  validation if (input text is empty)
-- [ ]  reset all inputs after submit the message
- -plan B
-- [ ]  send direct message to WhatsApp
+ #### *Contact*
+-plan A
+- [ ]  1.validation if (input text is empty)
+- [ ]  2.reset all inputs after submit the message
+
+-plan B
+<br/>
+- [ ]  1.send direct message to WhatsApp
 
 
 ## [Built With]
 
 * [![React][React.js]][React-url]
-* react scroll [👉🏻[1.Navbar_Component] to add smooth scroll to the app (using import { Link } from 'react-scroll')
-* iconscout [👉🏻[1.1.Toggle_Component] (Sun & Moon) icons]
-* useContext Hook [👉🏻[in all of application
+* [react scroll] [👉🏻[1.Navbar_Component] to add smooth scroll to the app (using import { Link } from 'react-scroll')
+* [iconscout] [👉🏻[1.1.Toggle_Component] (Sun & Moon) icons]
+* [useContext Hook] [👉🏻[in all of application
    <br> (1.Navbar(img_logo),
    <br> (0.App.js(background-color)),
    <br> [2.Intro,3.Services,6.Portfolio (span-color)] ] for dark mode theme.. and also for changing (logo) when changing the theme to be a dynamic] 
-  * css 👉🏻[in all of application]
-* Framer Motion [👉🏻[2.Intro_Component & 3.Services_Component] (for animtion of imgs such as Sunglass-emoji-img)]
-* react-particle-image[👉🏻[3.Services_Component] (for react-logo-img (humble.png) )]
-* Swiper js library  [👉🏻[6.Portfolio_Component] for slider to (cards aka container)]
-* React Email js library [👉🏻[7.Contact_Component] for sending email]
-* useState Hook [👉🏻[7.Contact_Component] (when sending email... will appear a msg to user that ur email have been sent successfully)] 
+  * [css] 👉🏻[in all of application]
+* [Framer Motion] [👉🏻[2.Intro_Component & 3.Services_Component] (for animtion of imgs such as Sunglass-emoji-img)]
+* [react-particle-image] [👉🏻[3.Services_Component] (for react-logo-img (humble.png) )]
+* [Swiper js library]  [👉🏻[6.Portfolio_Component] for slider to (cards aka container)]
+* [React Email js library] [👉🏻[7.Contact_Component] for sending email]
+* [useState Hook] [👉🏻[7.Contact_Component] (when sending email... will appear a msg to user that ur email have been sent successfully)] 
 
 
-<!-- download -->
+
 ## [Download And installation]
 
 Download this template from [Github](https://github.com/Abanoub5015/Portfolio/archive/refs/heads/main.zip)
@@ -188,24 +190,15 @@ git push -f origin main
        git push origin main -f  
        git pull origin main 
 
-# insert a yellow rect beneath the text, to represent the bounding box
-svg.insert('rect','text')
-  .attr('x', bbox.x)
-  .attr('y', bbox.y)
-  .attr('width', bbox.width)
-  .attr('height', bbox.height)
-  
-<Rect width="40" height="40" fill="blue" />
-<Text
-  textAnchor="middle"
-  fontWeight="bold"
-  fontSize="16"
-  fill="blue">
-  0
- </Text>
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[angular/flex-layout]: https://github.com/angular/flex-layout
+[react scroll]: https://www.npmjs.com/package/react-scroll
+[iconscout]: https://iconscout.com/unicons/explore/line#_=_
+[useContext Hook]: https://reactjs.org/docs/context.html#examples
+[css]: https://www.w3schools.com/css/
+[Framer Motion]: https://www.framer.com/docs/animation/#overview
+[react-particle-image]: https://www.npmjs.com/package/react-particle-image
+[Swiper js library]: https://swiperjs.com/demos
+[React Email js library]: https://www.emailjs.com/docs/examples/reactjs/
+[useState Hook]: https://reactjs.org/docs/hooks-state.html
