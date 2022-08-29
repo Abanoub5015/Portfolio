@@ -86,7 +86,7 @@ npm install -g
 ```  
 
 ```
-setup custom font for entire application:
+setup custom font for the entire application:
 
 [[👉🏻[index.html] inside [<head> tag]`
     <style>
