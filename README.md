@@ -47,15 +47,18 @@
 ## [Built With]
 
 * [![React][React.js]][React-url]
-* react scroll [for '[Navbar]' to add smooth scroll to the app (using import { Link } from 'react-scroll')
-* iconscout [for [Toggle_Component] (Sun & Moon) icons]
-* useContext Hook [for dark mode theme 👉🏻[in all of application] .. and also for changing (logo) when changing the theme to be a dynamic] 
-* Framer Motion [for 👉🏻[Intro & Services_Component] (for animtion of imgs such as Sunglass-emoji-img)]
-* useState Hook [for 👉🏻[Contact_Component] (when sending email... will appear a msg to user that ur email have been sent successfully)] 
-* css 👉🏻[in all of application]
-* [![Font Awesome][Bootstrap.com]][Bootstrap-url] for styling some btns, cards, input(text, textarea)
-* React Email js library 
-* Swiper js library  [for slider ]
+* react scroll [👉🏻[1.Navbar_Component] to add smooth scroll to the app (using import { Link } from 'react-scroll')
+* iconscout [👉🏻[1.1.Toggle_Component] (Sun & Moon) icons]
+* useContext Hook [👉🏻[in all of application
+   <br> (1.Navbar(img_logo),
+   <br> (0.App.js(background-color)),
+   <br> [2.Intro,3.Services,6.Portfolio (span-color)] ] for dark mode theme.. and also for changing (logo) when changing the theme to be a dynamic] 
+  * css 👉🏻[in all of application]
+* Framer Motion [👉🏻[2.Intro_Component & 3.Services_Component] (for animtion of imgs such as Sunglass-emoji-img)]
+* react-particle-image[👉🏻[3.Services_Component] (for react-logo-img (humble.png) )]
+* Swiper js library  [👉🏻[6.Portfolio_Component] for slider to (cards aka container)]
+* React Email js library [👉🏻[7.Contact_Component] for sending email]
+* useState Hook [👉🏻[7.Contact_Component] (when sending email... will appear a msg to user that ur email have been sent successfully)] 
 
 
 <!-- download -->
