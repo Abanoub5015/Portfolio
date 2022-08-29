@@ -49,18 +49,18 @@
 ## [Built With]
 
 * [![React][React.js]][React-url]
-* [react scroll] [👉🏻[1.Navbar_Component] to add smooth scroll to the app (using import { Link } from 'react-scroll')
-* [iconscout] [👉🏻[1.1.Toggle_Component] (Sun & Moon) icons]
-* [useContext Hook] [👉🏻[in all of application
+* 1.[react scroll] [👉🏻[1.Navbar_Component] to add smooth scroll to the app (using import { Link } from 'react-scroll')
+* 2.[iconscout] [👉🏻[1.1.Toggle_Component] (Sun & Moon) icons]
+* 3.[useContext Hook] [👉🏻[in all of application
    <br> (1.Navbar(img_logo),
    <br> (0.App.js(background-color)),
    <br> [2.Intro,3.Services,6.Portfolio (span-color)] ] for dark mode theme.. and also for changing (logo) when changing the theme to be a dynamic] 
-  * [css] 👉🏻[in all of application]
-* [Framer Motion] [👉🏻[2.Intro_Component & 3.Services_Component] (for animtion of imgs such as Sunglass-emoji-img)]
-* [react-particle-image] [👉🏻[3.Services_Component] (for react-logo-img (humble.png) )]
-* [Swiper js library]  [👉🏻[6.Portfolio_Component] for slider to (cards aka container)]
-* [React Email js library] [👉🏻[7.Contact_Component] for sending email]
-* [useState Hook] [👉🏻[7.Contact_Component] (when sending email... will appear a msg to user that ur email have been sent successfully)] 
+  * 4.[css] 👉🏻[in all of application]
+* 5.[framer-motion] [👉🏻[2.Intro_Component & 3.Services_Component] (for animtion of imgs such as Sunglass-emoji-img)]
+* 6.[react-particle-image] [👉🏻[3.Services_Component] (for react-logo-img (humble.png) )]
+* 7.[Swiper js library]  [👉🏻[6.Portfolio_Component] for slider to (cards aka container)]
+* 8.[React Email js library] [👉🏻[7.Contact_Component] for sending email]
+* 9.[useState Hook] [👉🏻[7.Contact_Component] (when sending email... will appear a msg to user that ur email have been sent successfully)] 
 
 
 
@@ -68,7 +68,7 @@
 
 Download this template from [Github](https://github.com/Abanoub5015/Portfolio/archive/refs/heads/main.zip)
 
-* Install dependencies
+* ## Install dependencies
 ```
 npm install
 ```
@@ -79,13 +79,71 @@ npm start
 
 
 
-* other Commands
+* ## other Commands
 ```
-npm install -g   
-npm init
+npm install -g
+```  
+
+```
+1. npm add react-scroll  
+```
+
+```
+2. npm add @iconscout/react-unicons
+2. npm install --save @iconscout/react-unicons
+```
+
+```
+5. npm install framer-motion 
+```
+
+```
+6. npm install --save react-particle-image  
+```
+
+```
+8. npm add emailjs
+8. npm add @emailjs/browser
+```
 
 
-npm install --save react-particle-image   
+
+* ## git Commands [// means once]
+```
+//git init
+
+  git add *
+  git commit -m "first commit"
+
+//git branch -M main
+//git remote add origin https://github.com/Abanoub5015/Portfolio.git
+
+  git push origin main
+```
+
+* ## git (deploy-page) Commands [// means once]
+```
+[1] npm run build  
+[2] //npm install gh-pages --save-dev
+[3] npm run deploy
+```
+
+
+* ## after every update:
+```
+-----------------------------
+git add *
+git commit -m "first commit"
+git push origin main
+npm run deploy
+-----------------------------
+```
+
+
+
+
+```
+ 
  npm install -g npm       
  npx create-react-app vibes            
  npm install @mui/material @emotion/react @emotion/styled   
@@ -96,10 +154,10 @@ npm install --save react-particle-image
  firebase login  
  firebase logout
  firebase init
- in> npm run build  
+ ********************
  npm start
  npm install react-scripts --save 
- npm install --save @iconscout/react-unicons       
+     
 
   git commit -m "first commit"     
   git branch -M main  
@@ -123,11 +181,11 @@ npm run deploy
 
 
 npm add swiper   
-NPM add emailjs   
-npm add @iconscout/react-unicons
-npm add @emailjs/browser    
- npm install framer-motion 
- npm add react-scroll  
+ 
+
+    
+
+
 
  npm i --save @fortawesome/react-fontawesome@latest    
  npm install --save font-awesome
@@ -204,7 +262,7 @@ git push -f origin main
 [iconscout]: https://iconscout.com/unicons/explore/line#_=_
 [useContext Hook]: https://reactjs.org/docs/context.html#examples
 [css]: https://www.w3schools.com/css/
-[Framer Motion]: https://www.framer.com/docs/animation/#overview
+[framer-motion]: https://www.framer.com/docs/animation/#overview
 [react-particle-image]: https://www.npmjs.com/package/react-particle-image
 [Swiper js library]: https://swiperjs.com/demos
 [React Email js library]: https://www.emailjs.com/docs/examples/reactjs/
