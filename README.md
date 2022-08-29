@@ -83,28 +83,22 @@ npm start
 ```
 npm install -g
 ```  
-
 ```
 1. npm add react-scroll  
 ```
-
 ```
 2. npm add @iconscout/react-unicons
 2. npm install --save @iconscout/react-unicons
 ```
-
 ```
 5. npm install framer-motion 
 ```
-
 ```
 6. npm install --save react-particle-image  
 ```
-
 ```
 7. npm add swiper
 ```
-
 ```
 8. npm add emailjs
 8. npm add @emailjs/browser
@@ -115,14 +109,12 @@ npm install -g
 * ## git Commands [// means once]
 ```
 //git init
-
   git add *
   git commit -m "first commit"
-
 //git branch -M main
 //git remote add origin https://github.com/Abanoub5015/Portfolio.git
-
   git push origin main
+git pull origin main 
 ```
 
 * ## git (deploy-page) Commands [// means once]
