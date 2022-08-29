@@ -61,16 +61,130 @@
 <!-- download -->
 ## [Download And installation]
 
-Download this template from [Github](https://github.com/Abanoub5015/MyStore/archive/refs/heads/main.zip)
+Download this template from [Github](https://github.com/Abanoub5015/Portfolio/archive/refs/heads/main.zip)
 
+npm install --save react-particle-image   
 
 * Install dependencies
 npm install
 * Run locally
-ng serve
+npm start
 
+npm install -g   
+npm init
+
+* Run locally
+ npm install -g npm       
+ npx create-react-app vibes            
+ npm install @mui/material @emotion/react @emotion/styled   
+ > npm install @mui/icons-material       
+ npm i firebase     
+ npm i -g firebase-tools   
+ firebase deploy   
+ firebase login  
+ firebase logout
+ firebase init
+ in> npm run build  
+ npm start
+  npm install react-scripts --save 
+ npm install --save @iconscout/react-unicons       
+
+  git commit -m "first commit"     
+  git branch -M main  
+  git remote add origin https://github.com/Abanoub5015/Portfolio.hit 
+  git pull origin main 
+
+  npm install gh-pages — save-dev  
+  npm run deploy
+  git commit -m "deploy website" 
+
+  git init                                                        >> git add .
+>> git commit -m "first commit"
+>> git branch -M main
+>> git remote add origin https://github.com/Abanoub5015/Portfolio.git
+>> git push -u origin main
+
+git commit -m "deploy web"
+npm install gh-pages --save-dev 
+npm run deploy
+
+
+
+npm add swiper   
+NPM add emailjs   
+npm add @iconscout/react-unicons
+npm add @emailjs/browser    
+ npm install framer-motion 
+ npm add react-scroll  
+
+ npm i --save @fortawesome/react-fontawesome@latest    
+ npm install --save font-awesome
+
+ npm run storybook  
+
+git push -u origin https://github.com/Abanoub5015/Portfolio.git 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [angular/flex-layout]: https://github.com/angular/flex-layout
+
+
+
+git push origin master --force
+git remote rm origin   
+git remote add origin https://github.com/Abanoub5015/Portfolio  
+git push -f origin main   
+
+ git remote 
+ git branch 
+ git push origin main     
+  npm run deploy
+
+
+
+
+   npm install --save-dev typescript     
+   npm install --save-dev @angular/language-service    
+   npm eslint  
+   npm install -g @angular/cli 
+   ng --version 
+   ng g c Home  
+    ng g c components/ProductListItem 
+    ng g c components/PageNotFound   
+   ng help 
+   ng serve --port 3000 
+   ng g m Bookshelf  
+   ng g s services/post 
+   ng g s services/post --project my-app 
+   ng g s services/post --skip-tests    
+
+   npm cache clear -- force 
+   npm config set legacy-peer-deps true  
+
+    npm i -s @angular/flex-layout @angular/cdk    
+
+    npm i @ng-bootstrap/ng-bootstrap 
+    npm i --save bootstrap 
+    ng add @ng-bootstrap/ng-bootstrap 
+    ng serve --open           
+
+     git init 
+     git add README.md  
+     git commit -m"publish project"  
+     git branch -m main 
+     git remote add origin https://github.com/Abanoub5015/MyStore.git
+     git commit -m "ReadMe update1"         
+
+ npm i -g angular-cli-ghpages
+     ng build 
+       ngh --dir dist/my-store         
+
+       
+       ng cache clean
+
+
+
+       git add * 
+       git push origin main -f  
+       git pull origin main 
