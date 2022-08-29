@@ -61,6 +61,7 @@
 * 7.[Swiper js library]  [👉🏻[6.Portfolio_Component] for slider to (cards aka container)]
 * 8.[React Email js library] [👉🏻[7.Contact_Component] for sending email]
 * 9.[useState Hook]=>React-library [👉🏻[7.Contact_Component] (when sending email... will appear a msg to user that ur email have been sent successfully)] 
+* 10.[font-awesome] [👉🏻[2.Intro_Component & Footer_Component] [to fa-brands (fa-linkedin, fa-github, fa-whatsapp)] ]
 
 
 
@@ -84,6 +85,24 @@ npm start
 npm install -g
 ```  
 ```
+[index.html inside [<head> tag]
+    <style>
+      @font-face {
+        font-family: Gumela;
+        src: url('../src/fonts/*');
+      }
+      *{
+        font-family: 'Gumela';
+        font-weight: normal;
+        font-size: 20px;
+      }
+      body{
+        margin: 0;
+      }
+    </style>
+]
+```
+```
 1. npm add react-scroll  
 ```
 ```
@@ -102,6 +121,16 @@ npm install -g
 ```
 8. npm add emailjs
 8. npm add @emailjs/browser
+```
+```
+10.npm install --save font-awesome
+ [index.html inside [<head> tag]
+     <!--load all Font Awesome styles -->
+      <link href="./fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
+      <script src="./fontawesome-free-6.1.1-web/js/all.js" data-auto-a11y="true" ></script>
+     <!--load all Font Awesome styles -->
+ ]
+```
 ```
 
 
@@ -256,3 +285,4 @@ git push -f origin main
 [Swiper js library]: https://swiperjs.com/demos
 [React Email js library]: https://www.emailjs.com/docs/examples/reactjs/
 [useState Hook]: https://reactjs.org/docs/hooks-state.html
+[font-awesome]:https://fontawesome.com/search?q=linkedin&s=brands
