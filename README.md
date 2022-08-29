@@ -5,8 +5,8 @@
 
 # About The Project 
 ## [Demo]
-| [![]()]() | [  
-|:---:|:---:|
+| [![]()]() |  
+|:---:|
 | *Home*  |
 | ![screenShot_Portfolio](https://i.ibb.co/mqj7fT9/image.png)
 
