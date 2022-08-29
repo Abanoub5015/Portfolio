@@ -51,7 +51,7 @@
 * [![React][React.js]][React-url]
 * 1.[react scroll] [👉🏻[1.Navbar_Component] to add smooth scroll to the app (using import { Link } from 'react-scroll')
 * 2.[iconscout] [👉🏻[1.1.Toggle_Component] (Sun & Moon) icons]
-* 3.[useContext Hook] [👉🏻[in all of application
+* 3.[useContext Hook]=>React-library [👉🏻[in all of application
    <br> (1.Navbar(img_logo),
    <br> (0.App.js(background-color)),
    <br> [2.Intro,3.Services,6.Portfolio (span-color)] ] for dark mode theme.. and also for changing (logo) when changing the theme to be a dynamic] 
@@ -60,7 +60,7 @@
 * 6.[react-particle-image] [👉🏻[3.Services_Component] (for react-logo-img (humble.png) )]
 * 7.[Swiper js library]  [👉🏻[6.Portfolio_Component] for slider to (cards aka container)]
 * 8.[React Email js library] [👉🏻[7.Contact_Component] for sending email]
-* 9.[useState Hook] [👉🏻[7.Contact_Component] (when sending email... will appear a msg to user that ur email have been sent successfully)] 
+* 9.[useState Hook]=>React-library [👉🏻[7.Contact_Component] (when sending email... will appear a msg to user that ur email have been sent successfully)] 
 
 
 
@@ -99,6 +99,10 @@ npm install -g
 
 ```
 6. npm install --save react-particle-image  
+```
+
+```
+7. npm add swiper
 ```
 
 ```
@@ -180,20 +184,12 @@ npm run deploy
 
 
 
-npm add swiper   
- 
-
-    
-
-
-
  npm i --save @fortawesome/react-fontawesome@latest    
  npm install --save font-awesome
 
  npm run storybook  
 
 git push -u origin https://github.com/Abanoub5015/Portfolio.git 
-
 
 
 
