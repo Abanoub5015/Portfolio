@@ -86,13 +86,15 @@ npm install -g
 ```  
 
 ```
-[index.html inside [<head> tag]
+setup custom font for entire application:
+
+[[👉🏻[index.html] inside [<head> tag]`
     <style>
       @font-face {
         font-family: Gumela;
         src: url('../src/fonts/*');
       }
-      *{
+     *{
         font-family: 'Gumela';
         font-weight: normal;
         font-size: 20px;
@@ -102,7 +104,7 @@ npm install -g
       }
     </style>
 ]
-[index.css
+[[👉🏻[index.css]
   @font-face {
     font-family: Gumela;
     src: url('../src/fonts/Gumela\ Regular.otf');
@@ -138,7 +140,8 @@ npm install -g
 
 ```
 10.npm install --save font-awesome
- [index.html inside [<head> tag]
+
+ [[👉🏻[index.html] inside [<head> tag]
      <!--load all Font Awesome styles -->
       <link href="./fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
       <script src="./fontawesome-free-6.1.1-web/js/all.js" data-auto-a11y="true" ></script>
