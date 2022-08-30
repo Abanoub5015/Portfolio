@@ -24,6 +24,8 @@
 
 * *Contact* <br/> - [will send to me a direct message to my gmail]
 
+* *Footer* <br/> - [includes My (LinkedIn, Github, WhatsApp) also my Gmail-Account]
+
 
 <!-- ROADMAP -->
 ## [Roadmap]
