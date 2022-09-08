@@ -168,7 +168,7 @@ git pull origin main
 * ## git (deploy-page) Commands [// means once]
 ```
 [1] npm run build  
-[2] //npm install gh-pages --save-dev
+[2] //npm install gh-pages --save-dev       => [ https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f ]
 [3] npm run deploy
 ```
 
