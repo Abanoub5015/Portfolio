@@ -38,16 +38,9 @@ function Intro() {
                 <div className="i-name">
                     <span style={{color: darkMode? 'white' : ''}}>Hey! I'm</span>
                     <span>Abanoub Magdy</span>
-                    <span>Front-End Developer with a high
-                        level of experience in web development, production of high-quality work, with
-                        <br/>
-                         (2 years experience) in Flutter Development
-                        <br/>                      
-                         (1-year experience) in Front-End Development [React JS] 
-                        <br/>    
-                         (1-year experience) in Android Development 
-                      
-                        </span>
+                    <span>Front-End Developer with a high level of experience in (Web, Android, and iOS development),
+                         production of high-quality work, by (Angular, React, Flutter, and Android Development).
+                    </span>
                 </div>
 
               {/*   <button className="button i-button">

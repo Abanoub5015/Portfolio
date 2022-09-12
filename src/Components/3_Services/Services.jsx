@@ -5,6 +5,8 @@ import './Services.css'
 import HeartEmoji from '../../img/heartemoji.gif'
 import glasses from '../../img/glasses.gif'
 import Humble from '../../img/humble.png'
+import Angular from '../../img/Angular.gif'
+
 
 import ParticleImage, { ParticleOptions, forces, ParticleForce } from "react-particle-image";
 
@@ -43,15 +45,15 @@ function Services() {
         <div className='services' id="Services"> {/* id for link(react-scroll) in Navbar.jsx */}
             
             <div className="awesome">
-                <span style={{color: darkMode? 'white' : ''}}>My awesome</span>
+                <span style={{color: darkMode? 'white' : ''}}>My Technology</span>
                 <span>Services</span>
-                <spane>This is all the language I've worked with
+                <spane>These are all (frameworks, libraries) that I worked on in their languages
                     <br />
-                    And here is my resume... If you are interested, just click on the button below 😌
+                    And here is my resume... If you are interested, just click on the button below😌
                 </spane>
 
-                <a href={'https://drive.google.com/u/0/uc?id=1IjsLpIQ56FB7K0ctJvUizfM13X4OKJgg&export=download'}>
-                <button className="button s-button"> Download CV</button>
+                <a href={'https://drive.google.com/file/d/1nk1_E2HITCP4rEl6HatBxYr2lEarc6Ry/view?usp=sharing'} target="_blank" rel="noreferrer" >
+                <button className="button s-button"> View CV</button>
                 </a>
                 
                 <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
@@ -59,31 +61,28 @@ function Services() {
 
             <div className="cards">
 
-                <motion.div 
-                 initial={{left:'25rem'}}
-                 whileInView= {{left: '14rem'}}
-                 transition= {{transition}}
-                
-                style={{ left: '14rem' }}>
+
+                <motion.div
+                  initial={{left:'-1rem'}}
+                  whileInView= {{left: '1rem'}}
+                  transition= {{transition}}
+                 
+                 
+                 style={{ left: '2rem'}}>
                     <Card
-                        emoji={HeartEmoji}
-                        heading={'Flutter'}
-                        detail={
-                            <p style={{"font-size": '12px'}}>develop 
-                             <span style={{"font-size": '12px' ,'color':"blue", 'font-weight': "bold"}}> cross-platform applications </span>
-                              for ( Android, iOS, Linux, macOS, Windows, and the web ) from a 
-                              <span style={{"font-size": '12px', color:"darkolivegreen", 'font-weight':'bold'}}> single codebase</span>
-                              .</p>}
-                        //detail={"develop cross-platform applications for ( Android, iOS, Linux, macOS, Windows, and the web ) from a single codebase."}
+                        emoji={Angular}
+                        heading={'Angular'}
+                        detail={"develop and build single-page web applications using TypeScript language. also Angular is a fully responsive and powerful framework."}
                     />
                 </motion.div>
-                
+
                 <motion.div
-                 initial={{left:'-25rem'}}
-                 whileInView= {{left: '-4rem'}}
+                 initial={{left:'27rem', top: "3rem"}}
+                 whileInView= {{left: '17rem', top: "3rem"}}
                  transition= {{transition}}
                 
-                style={{ left: '-4rem', top: '12rem' }}>
+                
+                style={{ left: '16rem'}}>
                     <Card
                          custom_emoji={ <ParticleImage
                             src={Humble}
@@ -103,9 +102,32 @@ function Services() {
                             }}
                             />}
                         heading={'React'}
-                        detail={"develop, building user interfaces specifically for single-page applications .. React JS used in web development to build interactive elements on websites."}
+                        detail={"develop build user interfaces specifically for single-page applications .. React JS used in web development to build interactive elements on websites."}
                     />
                 </motion.div>
+
+
+
+                <motion.div 
+                  initial={{left:'-22rem',top:"17rem"}}
+                  whileInView= {{left: '-3rem'}}
+                  transition= {{transition}}
+                
+                style={{  left: '-2rem' }}>
+                    <Card
+                        emoji={HeartEmoji}
+                        heading={'Flutter'}
+                        detail={
+                            <p style={{"font-size": '12px'}}>develop 
+                             <span style={{"font-size": '12px' ,'color':"blue", 'font-weight': "bold"}}> cross-platform applications </span>
+                              for ( Android, iOS, Linux, macOS, Windows, and the web ) from a 
+                              <span style={{"font-size": '12px', color:"darkolivegreen", 'font-weight':'bold'}}> single codebase</span>
+                              .</p>}
+                        //detail={"develop cross-platform applications for ( Android, iOS, Linux, macOS, Windows, and the web ) from a single codebase."}
+                    />
+                </motion.div>
+                
+            
 
                 <motion.div 
                  initial={{left:'18rem'}}

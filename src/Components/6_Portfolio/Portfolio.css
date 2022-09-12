@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    height: 190vh;
 }
 
 .portfolio span:nth-of-type(1) {
@@ -39,23 +39,12 @@
 
 .portfolio img {
     width: 100%;
-    height: 100%;
-    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
-    border-radius: 19px;
-    box-shadow: 1px 1px 9px #e78267;
+    height: 50vh;
 }
 
 
 
 /* for img bagde */
-.container {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    display: inline-block;
-    margin: 1px;
-}
-
 .stack-top {
     /* adjust the below to control the shape */
     --d: 10px;
@@ -81,3 +70,288 @@
     background-repeat: no-repeat;
     clip-path: polygon(0 0, 100% 0, 100% 100%, calc(100% - var(--d)) calc(100% - var(--d)), var(--d) calc(100% - var(--d)), 0 100%)
 }
+
+
+
+/* timeline */
+
+#timeline {
+    display: flex;
+    background-color: #031625;
+}
+#timeline:hover .tl-item {
+    width: 17.3333%;
+}
+.tl-item {
+    transform: translate3d(0, 0, 0);
+    position: relative;
+    width: 25%;
+    height: 40vh;
+    min-height: 200px;
+    color: #fff;
+    overflow: hidden;
+    transition: width 0.5s ease;
+}
+.tl-item:before, .tl-item:after {
+    transform: translate3d(0, 0, 0);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.tl-item:after {
+    background: rgba(3, 22, 37, 0.85);
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+.tl-item:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 75%);
+    z-index: 1;
+    opacity: 0;
+    transform: translate3d(0, 0, 0) translateY(50%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.tl-item:hover {
+    width: 45% !important;
+}
+.tl-item:hover:after {
+    opacity: 0;
+}
+.tl-item:hover:before {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) translateY(0);
+    transition: opacity 1s ease, transform 1s ease 0.25s;
+}
+.tl-item:hover .tl-content {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.75s ease 0.5s;
+}
+.tl-item:hover .tl-bg {
+    filter: grayscale(0);
+}
+.tl-content {
+    transform: translate3d(0, 0, 0) translateY(25px);
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin: 0 1.618em;
+    top: 55%;
+    opacity: 0;
+}
+.tl-content h1 {
+    font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #1779cf;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.tl-content p {
+    font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.tl-year {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 1;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.tl-year p {
+    font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 0;
+}
+.tl-bg {
+    transform: translate3d(0, 0, 0);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    transition: filter 0.5s ease;
+    filter: grayscale(100%);
+}
+
+
+
+/* show btns on hover */
+.ui-card{
+    width: 100%;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.3s ease-out;
+	background:radial-gradient(#111 50%, #000 100%);
+
+    
+    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+    border-radius: 19px;
+    box-shadow: 1px 1px 9px #e78267;
+}
+
+.ui-card img{
+	transform: scale(1.03);
+	transition: all 0.3s ease-out;
+    object-fit: fill;
+}
+.ui-card:hover img{
+	transform: scale(1.05); 
+	opacity: 0.1;
+}
+.ui-card .description{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+    margin-bottom: 5px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+
+.ui-card .description h6{
+	font-weight: 500;
+    font-size: 18px;
+	transform: translateY(30px);
+	opacity: 0;
+	transition: all 0.3s ease-out;
+
+}
+.ui-card .description p{
+	transform: translateY(30px);
+	opacity: 0;
+	transition: all 0.3s ease-out 0.2s;
+}
+
+
+
+.ui-card .description a{
+   position: relative;
+   background:#fff;
+   color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 22px;
+    margin: 3px;
+	border-radius: 5px;
+	transform: translateY(30px);
+	opacity: 0;
+	transition: all 0.3s ease-out 0.4s;
+}
+.ui-card .description a:hover{
+	background: var(--clr);
+    color: var(--clr);
+    letter-spacing: 0.17em;
+    box-shadow: 0 0 35px var(--clr);
+}
+.ui-card .description a::before{
+    content:'';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+}
+.ui-card .description a span{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 1em;
+}
+.ui-card .description a i{
+    position: relative;
+    inset: 0;
+    display: block;
+}
+.ui-card .description a i::before{
+    content:'';
+    position: absolute;
+    top: 5px;
+    left: 80%;
+    width: 10px;
+    height: 5px;
+    background: #27282c;
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+.ui-card .description a:hover i::before{
+    width: 20px;
+    left: 20%;
+}
+
+
+.ui-card .description a i::after{
+    content:'';
+    position: absolute;
+    bottom: 30px;
+    left: 20%;
+    width: 10px;
+    height: 4px;
+    background: #27282c;
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+.ui-card .description a:hover i::after{
+    width: 20px;
+    left: 80%;
+}
+
+
+
+
+.ui-card:hover .description h6{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.ui-card:hover .description p{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.ui-card:hover .description a{
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 80vh;
+  }
+  
+ .mySwiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  }
+  
+  .mySwiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .mySwiper .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.mySwiper_items {
+    width: 100%;
+    height: 70vh;
+ 
+ }
+
+
+
+
+
+
