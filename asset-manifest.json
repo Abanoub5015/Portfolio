@@ -1,27 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.8fb516b7.css",
-    "main.js": "/static/js/main.ec0fc5c7.js",
-    "static/media/sidebar.gif": "/static/media/sidebar.dfbe60071d430a300273.gif",
-    "static/media/ecommerce.png": "/static/media/ecommerce.522da76635d52117102b.png",
+    "main.css": "/static/css/main.188daf27.css",
+    "main.js": "/static/js/main.ace6705b.js",
+    "static/media/mystore.png": "/static/media/mystore.5463569453478629e88b.png",
+    "static/media/vibes.png": "/static/media/vibes.041124a507b47586a814.png",
+    "static/media/IT1.jpg": "/static/media/IT1.0473994e868a7eddb3e1.jpg",
+    "static/media/Angular.gif": "/static/media/Angular.4b6e2601bb03ffbe086d.gif",
+    "static/media/IT5.jpg": "/static/media/IT5.03849fa4227d91525a3f.jpg",
+    "static/media/Ecommerce1.jpg": "/static/media/Ecommerce1.a71bbaf7ee8bf8071408.jpg",
+    "static/media/IT0.jpg": "/static/media/IT0.5a4dd81853d38bac2948.jpg",
     "static/media/heartemoji.gif": "/static/media/heartemoji.106418309abddb1e1df0.gif",
+    "static/media/IT3.jpg": "/static/media/IT3.fb02f300359d12237ec2.jpg",
+    "static/media/IT7.jpg": "/static/media/IT7.f81e15dd5b7c2c4fd032.jpg",
     "static/media/glasses.gif": "/static/media/glasses.a1e18ca78d7dc88f0c46.gif",
-    "static/media/musicapp.png": "/static/media/musicapp.f1c301f91904ef5f9249.png",
+    "static/media/hdbms.png": "/static/media/hdbms.145f7538183374f60ed2.png",
+    "static/media/ecommerce2.png": "/static/media/ecommerce2.ed71a3b5a734309af210.png",
+    "static/media/IT2.jpg": "/static/media/IT2.36d0f1dfae57312afe16.jpg",
+    "static/media/IT9.jpg": "/static/media/IT9.0f67f14c99c9d836ea29.jpg",
     "static/media/boy.png": "/static/media/boy.29f676e9c86d12cb0459.png",
+    "static/media/IT6.jpg": "/static/media/IT6.629bf7656b98e571e5b0.jpg",
     "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/IT8.jpg": "/static/media/IT8.202f3b236dadd815a3c8.jpg",
+    "static/media/IT4.jpg": "/static/media/IT4.25185adecdc74f6e8789.jpg",
     "static/media/thumbup.png": "/static/media/thumbup.52beb415082317bda55b.png",
-    "static/media/hoc.png": "/static/media/hoc.e6af51fc04c57ae67096.png",
     "static/media/Gumela Regular.otf": "/static/media/Gumela Regular.0ae83c6988a536716eb4.otf",
     "static/media/crown.png": "/static/media/crown.efa1d3a749c0cb25394c.png",
     "static/media/wave.png": "/static/media/wave.fdfef4069ad90f610990.png",
     "static/media/A_logo.png": "/static/media/A_logo.c592844f0a1e36da6f52.png",
     "static/media/Vector2.png": "/static/media/Vector2.009dc8f0bf95e55a8bb3.png",
     "index.html": "/index.html",
-    "main.8fb516b7.css.map": "/static/css/main.8fb516b7.css.map",
-    "main.ec0fc5c7.js.map": "/static/js/main.ec0fc5c7.js.map"
+    "main.188daf27.css.map": "/static/css/main.188daf27.css.map",
+    "main.ace6705b.js.map": "/static/js/main.ace6705b.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fb516b7.css",
-    "static/js/main.ec0fc5c7.js"
+    "static/css/main.188daf27.css",
+    "static/js/main.ace6705b.js"
   ]
 }
