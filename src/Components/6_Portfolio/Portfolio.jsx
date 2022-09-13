@@ -46,13 +46,19 @@ function Portfolio() {
    const darkMode = theme.state.darkMode;
 
    //handleSlidesChangeListener
-   var mediaQuery = window.matchMedia("(max-width: 700px)")
+   var mediaQuery = window.matchMedia("(max-width: 900px)")
+   var mediaQuery2 = window.matchMedia("(max-width: 1300px)")
+
    var slidesPerView;
   // function handleSlidesChangeListener(e) {
       if (mediaQuery.matches) {
         slidesPerView=1;
       }
-      else
+      else if (mediaQuery2.matches)
+      {
+        slidesPerView=2
+      }
+      else 
       {
         slidesPerView=3
       }
