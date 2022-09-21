@@ -31,11 +31,12 @@
 ## [Roadmap]
 
 #### *Portfolio*
-- [ ]  1.add a timeline about my career path
+- [x]  1.add a timeline about my career path
 - [x]  2.Recent Porjects(progaming projects)
-  - [ ] update projects Demo(video - pic - gif) & zoom-in effect when hover on card
-  - [ ] Add btns(web, playStore, AppStore, even video(demo if necessary)) when hover of the card of any project/freelance-work
-- [ ]  3.Add My IT-skills  
+  - [x] update projects Demo(video - pic - gif) & zoom-in effect when hover on card
+  - [x] Add btns(website-link, video(demo if necessary)) when hover of the card of any project/freelance-work
+  - [ ] Add btns(playStore, AppStore) when hover of the card of any project/freelance-work
+- [x]  3.Add My IT-skills  
 - [ ]  4.Add some-skills [Creative Mindset, Problem-Solving]
 ----
  #### *Contact*
