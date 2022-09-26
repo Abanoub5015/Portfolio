@@ -11,13 +11,13 @@ function Experience() {
         </div>
 
         <div className="achievement">
-            <div className="circle">5+</div>
+            <div className="circle">6+</div>
             <span>Completed</span>
             <span>Projects</span>
         </div>
 
         <div className="achievement">
-            <div className="circle">1+</div>
+            <div className="circle">2+</div>
             <span>Freelance</span>
             <span>Work</span>
         </div>

@@ -21,6 +21,13 @@ import IT7 from "../../img/IT7.jpg";
 import IT8 from "../../img/IT8.jpg";
 import IT9 from "../../img/IT9.jpg";
 
+import NIDE_Mockup from "../../img/NIDE_Mockup.gif";
+import MiracleCure_Mockup from "../../img/MiracleCure_Mockup.gif";
+
+
+
+
+
 
 
 
@@ -75,8 +82,39 @@ function Portfolio() {
 
       {/* timeline */}
       <section id="timeline">
+
+
+      <div class="tl-item">
+         <div class="tl-bg" style={{'background-image': 'url(https://i.imgur.com/SlKZdBu.jpg)' }}></div>
+    
+         <div class="tl-year">
+           <p class="f2 heading--sanSerif">Jun 2019</p>
+         </div>
+
+         <div class="tl-content">
+           <h1>Android</h1>
+           <p>Mircale Cure(Medical service booking) <br/> for (Android) using (Java).</p>
+         </div>
+
+        </div>
+
         <div class="tl-item">
-         <div class="tl-bg" style={{'background-image': 'url(https://wallpapermemory.com/uploads/237/android-wallpaper-full-hd-1080p-169079.jpg)'}}></div>
+         <div class="tl-bg" style={{'background-image': 'url(https://i.imgur.com/hGssbRd.png)'}}></div>
+    
+         <div class="tl-year">
+           <p style={{ 'color':'#6eff3e'}} class="f2 heading--sanSerif">Sep 2019</p>
+         </div>
+
+         <div class="tl-content">
+           <h1>Android</h1>
+           <p>NIDE (pdf-App) <br/> for (Android) using (Java).</p>
+         </div>
+
+        </div>
+
+
+        <div class="tl-item">
+         <div class="tl-bg" style={{'background-image': 'url(https://i.imgur.com/HQXpgO9.png)'}}></div>
     
          <div class="tl-year">
            <p class="f2 heading--sanSerif">Jan 2021</p>
@@ -90,7 +128,7 @@ function Portfolio() {
         </div>
 
        <div class="tl-item">
-       <div class="tl-bg" style={{'background-image': 'url(https://i.ibb.co/B4XCd4y/flutter-e1625644676239.png)'}}></div>
+       <div class="tl-bg" style={{'background-image': 'url(https://i.imgur.com/NzKyk9T.png)'}}></div>
            <div class="tl-year">
              <p class="f2 heading--sanSerif">Oct 2021</p>
           </div>
@@ -103,20 +141,20 @@ function Portfolio() {
         </div>
 
        <div class="tl-item">
-          <div class="tl-bg" style={{'background-image': 'url(https://ealialmashi.ly/wp-content/uploads/2022/05/csharp-using-declaration.png)'}}></div>
+          <div class="tl-bg" style={{'background-image': 'url(https://i.imgur.com/gMdKVJh.png)'}}></div>
     
           <div class="tl-year">
-             <p class="f2 heading--sanSerif">Jan 2022</p>
+             <p style={{ 'color':'#6eff3e'}} class="f2 heading--sanSerif">Jan 2022</p>
           </div>
 
            <div class="tl-content">
              <h1 class="f3 text--accent ttu">Desktop App</h1>
-            <p style={{'font-size': '12px'}}>Hospital database management system for (Desktop) using (C#) <br/> [Ain Shams University Hospitals,Public Relations Department].</p>
+            <p style={{'font-size': '10px'}}>Hospital database management system for (Desktop) using (C#) <br/> [Ain Shams University Hospitals,Public Relations Department].</p>
           </div>
        </div>
 
        <div class="tl-item">
-          <div class="tl-bg" style={{'background-image': 'url(https://wallpaperaccess.com/full/3949076.jpg)'}}></div>
+          <div class="tl-bg" style={{'background-image': 'url(https://i.imgur.com/brq3Qbe.png)'}}></div>
         
           <div class="tl-year">
             <p class="f2 heading--sanSerif">May 2022</p>
@@ -129,7 +167,7 @@ function Portfolio() {
        </div>
 
        <div class="tl-item">
-          <div class="tl-bg" style={{'background-image': 'url(https://i.ibb.co/z8msJBF/React-Js-1.jpg)'}}></div>
+          <div class="tl-bg" style={{'background-image': 'url(https://i.imgur.com/TSbfZds.png)'}}></div>
         
           <div class="tl-year">
             <p class="f2 heading--sanSerif">Jun 2022</p>
@@ -143,7 +181,7 @@ function Portfolio() {
        </div>
 
        <div class="tl-item">
-          <div class="tl-bg" style={{'background-image': 'url(https://i.ibb.co/yXqRw3P/angular-bg.jpg)'}}></div>
+          <div class="tl-bg" style={{'background-image': 'url(https://i.imgur.com/g4sqqLS.png)'}}></div>
         
           <div class="tl-year">
             <p class="f2 heading--sanSerif">Aug 2022</p>
@@ -166,13 +204,40 @@ function Portfolio() {
       slidesPerView={slidesPerView}
       grabCursor={true}
       >
+
+        <SwiperSlide>
+           <div class="ui-card">
+              <img src={MiracleCure_Mockup} alt="" />
+               <div class="description">
+                 <h6>Jun 2019</h6>
+                 <h6>Mircale Cure(Medical service booking) <br/> [Android App]</h6>
+		             <a style={{'--clr':'#ff1867'}} href="https://drive.google.com/file/d/1B7X-Y8r-eUSayd2poWAUuaLK0_LVfxIc/view?usp=sharing" target="_blank" rel="noreferrer"><span>demo video</span><i></i></a>
+	             </div>
+            </div>
+          <div class="stack-top" style={{'font-size': '18px'}}>Project</div>
+
+        </SwiperSlide>
+
+
+        <SwiperSlide>
+           <div class="ui-card">
+              <img style={{ 'object-fit': 'cover'}} src={NIDE_Mockup} alt="" />
+               <div class="description">
+                 <h6>Sep 2019</h6>
+                 <h6>NIDE (pdf-App) <br/> [Android App]</h6>
+		             <a href="https://drive.google.com/file/d/11zWSSwNw81KAsXgkxrSxEUfKsOtOgZbT/view?usp=sharing" target="_blank" rel="noreferrer"><span>App Screenshots</span><i></i></a>
+	             </div>
+            </div>
+          <div class="stack-top" style={{'font-size': '15px' , 'color':'#6eff3e' }}>Freelance</div>
+
+        </SwiperSlide>
         
         <SwiperSlide>
            <div class="ui-card">
               <img src={Ecommerce1} alt="" />
                <div class="description">
                  <h6>Jan 2021</h6>
-                 <h6>E-commerce(1) [Android App]</h6>
+                 <h6>E-commerce(1) <br/> [Android App]</h6>
 		             <a href="https://drive.google.com/file/d/1BJNlbP0jvtA31huASuXpW-BNp0OJkp4_/view" target="_blank" rel="noreferrer"><span>App Screenshots</span><i></i></a>
 	             </div>
             </div>
@@ -185,7 +250,7 @@ function Portfolio() {
               <img src={ecommerce2} alt="" />
                <div class="description">
                  <h6>Oct 2021</h6>
-                 <h6>E-commerce(2) [Flutter App]</h6>
+                 <h6>E-commerce(2) <br/> [Flutter App]</h6>
 		              <a style={{'--clr':'#6eff3e'}} href="https://lowmium.ml/" target="_blank" rel="noreferrer"><span>Website🔗</span><i></i></a>    
                   <a href="https://github.com/Abanoub5015/LowMium" target="_blank" rel="noreferrer"><span>Project Github</span><i></i></a>   
 	             </div>
@@ -199,11 +264,11 @@ function Portfolio() {
               <img src={hdbms} alt="" />
                <div class="description">
                  <h6>Jan 2022</h6>
-                 <h6>Hospital system [Desktop App]</h6>
+                 <h6>Hospital system <br/> [Desktop App]</h6>
                  <a style={{'--clr':'#ff1867'}} href="https://drive.google.com/file/d/12-jncScgvGmzbie4IKAuXoyC_QhXd1Jo/view" target="_blank" rel="noreferrer"><span>demo video</span><i></i></a>    
 	             </div>
             </div>
-          <div class="stack-top" style={{'font-size': '15px'}}>Freelance</div>
+          <div class="stack-top" style={{'font-size': '15px' , 'color':'#6eff3e'}}>Freelance</div>
         </SwiperSlide>
 
         <SwiperSlide>
@@ -211,7 +276,7 @@ function Portfolio() {
               <img src={vibes} alt="" />
                <div class="description">
                  <h6>May 2022</h6>
-                 <h6>Social Media [Website]</h6>
+                 <h6>Social Media <br/> [Website]</h6>
                  <a style={{'--clr':'#6eff3e'}} href="https://vibes.gq/" target="_blank" rel="noreferrer"><span>Website🔗</span><i></i></a>    
                  <a href="https://github.com/Abanoub5015/Vibes" target="_blank" rel="noreferrer"><span>Project Github</span><i></i></a>
 	             </div>
@@ -225,7 +290,7 @@ function Portfolio() {
           <img src={mystore} alt="" />
               <div class="description">
                  <h6>Aug 2022</h6>
-                 <h6>Online Responsive Store [Web App]</h6>
+                 <h6>Online Responsive Store <br/> [Web App]</h6>
                  <a style={{'--clr':'#6eff3e'}} href="https://mystore-udacity.tk/" target="_blank" rel="noreferrer"><span>Website🔗</span><i></i></a>    
                  <a  href="https://github.com/Abanoub5015/MyStore" target="_blank" rel="noreferrer"><span>Project Github</span><i></i></a> 
 	           </div>
