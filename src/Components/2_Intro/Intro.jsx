@@ -38,7 +38,7 @@ function Intro() {
                 <div className="i-name">
                     <span style={{color: darkMode? 'white' : ''}}>Hey! I'm</span>
                     <span>Abanoub Magdy</span>
-                    <span>Front-End Developer with a high level of experience in (Web, Android, and iOS development),
+                    <span>Front-End Developer with high level of experience in (Web, Android, and iOS development),
                          production of high-quality work, by (Angular, React, Flutter, and Android Development).
                     </span>
                 </div>
@@ -92,8 +92,8 @@ function Intro() {
                 <img src={boy} alt="" />
 
                 <motion.img
-                     initial={{left:'-36%'}}
-                     whileInView= {{left: '-24%'}}
+                     initial={{left:'-33%'}}
+                     whileInView= {{left: '-29%'}}
                      transition= {{transition}}
 
                 src={glassesimoji} alt="" 
@@ -101,19 +101,19 @@ function Intro() {
 
                 <motion.div
                      initial={{top: '-4%' , left:'74%'}}
-                     whileInView= {{left: '68%'}}
+                     whileInView= {{left: '60%'}}
                      transition= {{transition}}
 
-                 style={{top: '-4%', left: '68%'}}>
+                 style={{top: '-4%', left: '60%'}}>
                 <FloatingDiv image={crown} txt1={'Web'} txt2={'Developer'}/>
                 </motion.div>
 
                 <motion.div
                      initial={{top: '18rem' , left:'9rem'}}
-                     whileInView= {{left: '-5.5rem'}}
+                     whileInView= {{left: '-4.8rem'}}
                      transition= {{transition}}
 
-                   style={{top: '18rem', left: '-5.5rem'}}>
+                   style={{top: '18rem', left: '-4.8rem'}}>
                   <FloatingDiv image={thumbup} txt1={'Flutter'} txt2={'Developer'}/>
                 </motion.div>
 

@@ -192,5 +192,24 @@ background: #25d366;
     }
     .i-right{
         transform: scale(0.79);
+
     }
+    .i-right>:nth-child(5){
+        transform: scale(0.79);
+    }
+    .i-right>:nth-child(6){
+        transform: scale(0.79);
+    }
+ 
+
+    .i-name>:nth-child(1) {
+        font-size: 2rem;
+    }
+    
+    .i-name>:nth-child(2) {
+        font-size: 2rem;
+    }
+
+
+
   }

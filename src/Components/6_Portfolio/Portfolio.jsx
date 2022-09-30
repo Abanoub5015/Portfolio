@@ -149,7 +149,7 @@ function Portfolio() {
 
            <div class="tl-content">
              <h1 class="f3 text--accent ttu">Desktop App</h1>
-            <p style={{'font-size': '10px'}}>Hospital database management system for (Desktop) using (C#) <br/> [Ain Shams University Hospitals,Public Relations Department].</p>
+            <p style={{'font-size': '9px'}}>Hospital database management system for (Desktop) using (C#) <br/> [Ain Shams University Hospitals,Public Relations Department].</p>
           </div>
        </div>
 
@@ -203,6 +203,12 @@ function Portfolio() {
       spaceBetween={30}
       slidesPerView={slidesPerView}
       grabCursor={true}
+      
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Pagination, Navigation]}
       >
 
         <SwiperSlide>

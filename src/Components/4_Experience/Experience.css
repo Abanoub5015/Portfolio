@@ -13,6 +13,10 @@
   align-items: center;
 }
 
+.achievement:nth-of-type(3) {
+  color: rgb(25, 197, 34);
+}
+
 .circle {
   width: 4rem;
   height: 4rem;

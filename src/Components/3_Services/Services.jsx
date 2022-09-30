@@ -48,8 +48,13 @@ function Services() {
                 <span style={{color: darkMode? 'white' : ''}}>My Technology</span>
                 <span>Services</span>
                 <spane>These are all (frameworks, libraries) that I worked on in their languages
-                    <br />
-                    And here is my resume... If you are interested, just click on the button below😌
+                    <div class="container">
+                     <div class="stack" style={{'--index': '3'}}>
+                         <span style={{'--index': '0'}}>And here's my resume.. If you are interested, just click on the button below😌</span>
+                         <span style={{'--index': '1'}}>And here's my resume.. If you are interested, just click on the button below😌</span>
+                         <span style={{'--index': '2'}}>And here's my resume.. If you are interested, just click on the button below😌</span>
+                     </div>
+                   </div>
                 </spane>
 
                 <a href={'https://drive.google.com/file/d/1nk1_E2HITCP4rEl6HatBxYr2lEarc6Ry/view?usp=sharing'} target="_blank" rel="noreferrer" >
@@ -119,9 +124,9 @@ function Services() {
                         heading={'Flutter'}
                         detail={
                             <p style={{"font-size": '12px'}}>develop 
-                             <span style={{"font-size": '12px' ,'color':"blue", 'font-weight': "bold"}}> cross-platform applications </span>
+                             <span style={{"font-size": '12px' ,'color':"var(--clr)", 'font-weight': "bold"}}> cross-platform applications </span>
                               for ( Android, iOS, Linux, macOS, Windows, and the web ) from a 
-                              <span style={{"font-size": '12px', color:"darkolivegreen", 'font-weight':'bold'}}> single codebase</span>
+                              <span style={{"font-size": '12px', color:"#ff1867", 'font-weight':'bold'}}> single codebase</span>
                               .</p>}
                         //detail={"develop cross-platform applications for ( Android, iOS, Linux, macOS, Windows, and the web ) from a single codebase."}
                     />
