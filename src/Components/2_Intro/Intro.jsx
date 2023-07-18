@@ -53,7 +53,7 @@ function Intro() {
                  <div className="icon github">
                     <a href="https://github.com/Abanoub5015" target="_blank" rel="noreferrer">
                         <div className="tooltip">Github</div>
-                        <div className="circle_tooltip"><span className="<i fa-brands fa-github fa-3x"></span> </div>
+                        <div className="circle_tooltip"><span className="fab fa-brands fa-github fa-3x"></span> </div>
                        {/*  <ReactRoundedImage
                             image={Github}
                             roundedColor="#fff"
@@ -70,14 +70,14 @@ function Intro() {
                  <div className="icon linkedin">
                     <a href="https://www.linkedin.com/in/abanoub-magdy-98a17412a/" target="_blank" rel="noreferrer">
                         <div className="tooltip">LinkedIn</div>
-                        <div className="circle_tooltip"><span className="fa-brands fa-linkedin-in fa-3x"></span> </div>
+                        <div className="circle_tooltip"><span className="fab fa-brands fa-linkedin-in fa-3x"></span> </div>
                     </a>
                  </div>
                   
                  <div className="icon whatsapp">
                     <a href="https://api.whatsapp.com/send/?phone=%2B201555737801&text&app_absent=0" target="_blank" rel="noreferrer">
                         <div className="tooltip">WhatsApp</div>
-                        <div className="circle_tooltip"> <i class="fa-brands fa-whatsapp fa-3x"></i> </div>
+                        <div className="circle_tooltip"> <i class="fab fa-brands fa-whatsapp fa-3x"></i> </div>
                         
                     </a>
                  </div>
