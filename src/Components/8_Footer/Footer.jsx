@@ -50,7 +50,10 @@ function Footer() {
                     </a>
                  </div>
         </div>
+        
+        <span>+20 1555737801</span>
         <span>Abanoub5016@gmail.com</span>
+        
       </div>
     </div>
   )
